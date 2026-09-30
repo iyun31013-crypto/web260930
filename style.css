@@ -35,3 +35,28 @@ h3{
   border: solid 1px black;
   margin: 10px
 }
+
+article div::after{
+  content: '(더보기)';
+  font-style: italic;
+  color: darkgreen;
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+}
+
+a:visited{
+  color: orange;
+}
+
+a:hover{
+  background-color: blue;
+  color: white;
+}
+
+a:active{
+  backgorund-color: darkred;
+  color: white;
+}
